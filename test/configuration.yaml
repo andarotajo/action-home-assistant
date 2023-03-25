@@ -16,3 +16,7 @@ demo:
 sensor:
   - platform: otp
     token: !secret frenck
+
+homeassistant:
+  allowlist_external_dirs:
+    - "/config"
